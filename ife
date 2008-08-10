@@ -1,5 +1,6 @@
 # -*- mode: yasnippet -*-
-#name : if
+#name : if else
 # --
 (if (${1:condition})
-    (${2:then}))
+    (${2:then})
+  (${3:else}))
